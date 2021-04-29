@@ -18,6 +18,8 @@ hide_page_title: true
 
 Project Dash is a place where the community itself can collaborate on tools for community awareness and collaboration in support of our ultimate objective of committer quality and cooperation. This is very much a research project as we are not entirely sure what these tools will be.
 
+This is a test!
+
 ## Components
 
 ### Eclipse Project Handbook
