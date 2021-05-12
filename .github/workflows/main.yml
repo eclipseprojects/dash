@@ -22,7 +22,14 @@ jobs:
       - name: Build
         run: hugo --gc --minify -b https://eclipseprojects.github.io/dash
 
-      - name: Deploy
+      - name: Deploy Eclipse
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: ef-pages
+          
+      - name: Deploy Github
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
